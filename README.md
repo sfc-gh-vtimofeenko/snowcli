@@ -72,6 +72,10 @@ snow --version
 
 You should now be able to run `snow` and get the CLI message.
 
+### Install using Nix (MacOS and Linux)
+
+Use the flake from [`contrib/nix`](contrib/nix) directory.
+
 ## Get started using Snowflake CLI
 
 Use Snowflake CLI to build a function or stored procedure, or create a streamlit if you have access to the Streamlit in Snowflake private preview.
