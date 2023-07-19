@@ -1,10 +1,10 @@
 name: "Nix-related checks"
 on:
   push:
-    # paths:
+    paths:
       # Nix pins everything, so this action only needs to run if any Nix files change
       # A more robust solution would be to use a Nix cache
-      # - contrib/nix/**
+      - contrib/nix/**
 jobs:
   nix-checks:
     runs-on: ubuntu-latest
